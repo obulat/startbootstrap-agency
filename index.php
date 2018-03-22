@@ -8,8 +8,8 @@
                 <div class="row">
                     <h2>Home</h2>
                 </div>
-                <div class="row">
-                    <img src="img/from-nature-to-your-table.png" />
+                <div class="jumbotron" id="head-img">
+<img src="img/from-nature-to-your-table.png" class="img-fluid">
                 </div>
 
                 <div class="row">
