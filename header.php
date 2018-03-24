@@ -9,10 +9,10 @@ echo '<!DOCTYPE html>
     <meta name="description" content="">
     <meta name="author" content="Olga Bulat">
 
-    <title>Commodities Web site</title>
+    <title>Lama Group</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,7 +30,7 @@ echo '<!DOCTYPE html>
           <i class="fa fa-bars"></i>
         </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
+                <ul class="navbar-nav  ml-auto">
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="./index.php">Home</a>
                     </li>

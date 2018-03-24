@@ -26,22 +26,30 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    font-family: 'Cambria', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Cambria', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.accent {
+    color: #ff7f27;
+}
+
+.main-color {
+    color: #408080;
+}
 section {
-    padding: 100px 0;
+    padding: 100px 0 50px;
 }
 
-section h2.section-heading {
+section h2.inside-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-left: -15px;
+
     color: #408080;
 }
 
 section h3 {
-    font-size: 28px;
+    font-size: 16px;
     margin-bottom: 15px;
     color: #ff7f27;
 }
@@ -52,13 +60,13 @@ section h3.section-subheading {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Cambria', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Cambria', Arial, sans-serif;
 }
 
 
 @media (min-width: 768px) {
     section {
-        padding: 150px 0;
+        padding: 150px 0 50px;
     }
 }
 
@@ -141,13 +149,13 @@ img::-moz-selection {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #eeeeee;
+    color: #ffffff;
     font-family: 'Cambria',  Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #eeeeee;
+    color: #408080;
 }
 
 @media (min-width: 992px) {
@@ -180,6 +188,15 @@ img::-moz-selection {
     }
 }
 
+.page-heading {
+    color: #408080;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #408080;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 1.7rem;
+}
+
 header.masthead {
     text-align: center;
     color: black;
@@ -198,6 +215,13 @@ header.masthead .intro-text {
     padding-bottom: 100px;
 }
 
+.footer-center {
+    border-left: 5px solid #408080;
+    border-right: 5px solid #408080;
+    line-height: 1.2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /*
 header.masthead .intro-text .intro-lead-in {
     font-size: 22px;
@@ -240,8 +264,12 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-size: 20px;
 }
 
+.service-heading-small {
+    font-size: 16px;
+}
 .table-harvest {
     line-height: 1;
 
@@ -253,116 +281,202 @@ header.masthead .intro-text .intro-heading {
 }
 
 .table-harvest tr td:first-child {
-    color: #408080;
+    color: #ff7f27;
     text-align: left;
 }
 
 .table-harvest thead {
-    color: #ff7f27;
+    color: #408080;
 }
 
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+#about .team-member p {
+    margin-bottom: .5rem;
+    line-height: 1.5;
+    font-weight: bold;
 }
 
-#portfolio .portfolio-item .portfolio-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
+#about div.resume {
+    border: 1px dotted #ff7f27;
     height: 100%;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    padding: 30px;
+    margin-top: -2px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+.resume p {
+    line-height: 1.2;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
+#about .inside-heading {
+    background-color: #ff7f27;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+#about .inside-heading h2 {
     width: 100%;
-    height: 20px;
-    margin-top: -12px;
     text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#about .accent-heading {
+    background-color: #408080;
+    padding: 5px;
     color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px;
+#about .banking {
+    border: 1px dotted #408080;
+    height: 100%;
+    padding: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    background-color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-#portfolio * {
-    z-index: 2;
-}
-
-@media (min-width: 767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
-.company-name {
+footer .company-name {
     color:#408080;
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.contact-info a {
+
+footer .contact-info a {
     color:#408080;
     font-weight: bold;
 }
-.contact-info div {
+
+footer .contact-info div {
     margin-top: 15px;
 }
 
-div#head-img {
+div.head-img {
     padding:0;
+    background-color: white;
+    margin-bottom: 30px;
 }
 @media (min-width: 576px) {
-    #head-img {
+    .head-img {
         padding: 0;
     }
 }
 
+@media (min-width: 992px) {
+    .head-img img {
+        width: 100%;
+    }
+}
 
-section#contact .section-heading {
+.accent-heading {
+    background-color: #ff7f27;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+    height: 3rem;
+}
+
+#private-label ul, #products ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#private-label ul > li, #products ul > li {
+    color: #408080;
+}
+
+#private-label ul > li > ul, #products ul > li > ul {
+    list-style-type: disc;
+}
+
+#private-label ul > li > ul > li, #products ul > li > ul > li {
+    color: black;
+    line-height: 1.2;
+}
+
+.accent-border {
+    border: 1px dotted #ff7f27;
+    padding-top: 20px;
+}
+
+.accent-border.bottom-accent-border {
+    margin-top: -1px;
+    padding-bottom: 10px;
+    height: 396px;
+}
+
+.accent-border.top-accent-border {
+    height: 480px;
+    margin-bottom: -1px;
+    padding-bottom: 20px;
+}
+
+.main-border {
+    border: 1px dotted #408080;
+    padding-top: 20px;
+}
+
+.main-border.bottom-main-border {
+    margin-top: -1px;
+    padding-bottom: 10px;
+}
+
+.main-border.top-main-border {
+    margin-bottom: -1px;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+.main-heading {
+    background-color: #408080;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+    height: 3rem;
+}
+
+#products .frame1top {
+    height: 404px;
+}
+
+#products .frame1bottom {
+    height: 575px;
+}
+
+#products .frame2top {
+    height: 455px;
+}
+
+#products .frame2bottom {
+    height: 440px;
+}
+
+#products .table-products {
+    line-height: 1;
+
+}
+
+.table-products thead {
+    background-color: #bee5eb;
+}
+
+.table-products td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.table-products tr > td:first-child {
+    color: #ff7f27;
+}
+
+.lh15 li {
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+section#contact .inside-heading {
     color: #fff;
 }
 
@@ -414,10 +528,20 @@ section#contact :-ms-input-placeholder {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
 footer {
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
+    border-top: 20px solid #ff7f27;
+    border-bottom: 20px solid #ff7f27;
+
 }
+
+.contact-info {
+    border-top: 1px dashed #408080;
+    padding-top: 10px;
+}
+
 
 footer span.copyright {
     font-size: 90%;
