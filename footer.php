@@ -2,13 +2,14 @@
 echo '<!-- Footer -->
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-           <img src="img/lama-logo-left.jpg" width="100px"/>
+        <div class="footer-row">
+            <div class="left-picture">
+               <img src="img/lama-logo-left.jpg" width="100px"/>
             </div>
-            <div class="col-md-6 footer-center">
-            <p style="font-weight: bold;" class="mb-1">Company Name & Address</p>
-                 <div itemscope itemtype="http://schema.org/Organization" class="contact-info">
+            <div class="footer-center">
+                <p style="font-weight: bold;" class="mb-1">Company Name & Address & Tax #</p>
+                <div itemscope itemtype="http://schema.org/Organization" class="contact-info">
+                    <div></div>
                     <span itemprop="name" class="company-name">Lama Gida Tarim Urunleri Tasimacilik Insaat ve Malzemeleri
                     <br> Hayvancilik Madencilik Medical Sanayi ve Ticaret L.T.D.</span><br>
                     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -16,17 +17,17 @@ echo '<!-- Footer -->
                         <span itemprop="postalCode">31500</span>
                         <span itemprop="addressLocality">Reyhanli</span>, 
                         <span itemprop="addressRegion">Hatay</span>, <span itemprop="addressCountry">TURKEY</span> 
+                        <br>Tax #: REYHANLI 608061471
                     </div>
-                    <div>
+                </div>
+                
+                <div class="contact-info">
                    <a href="mailto:info@lamagroup.net" itemprop="email" style="color:#007bff">info@lamagroup.net</a><br>
-                     <a href="http://www.lamagroup.net" itemprop="url">www.lamagroup.net</a>
-                     </div>
+                   <a href="http://www.lamagroup.net" itemprop="url">www.lamagroup.net</a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <ul class="list-inline quicklinks">
-                    <img src="img/lama-logo-right.jpg" width="100px"/>                   
-                </ul>
+            <div class="right-picture">
+                <img src="img/lama-logo-right.jpg" width="100px"/>                   
             </div>
         </div>
     </div>
@@ -46,7 +47,7 @@ echo '<!-- Footer -->
 <script src="js/contact_me.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="js/agency.min.js"></script>
+<script src="js/agency.js"></script>
 
 </body>
 

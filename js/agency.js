@@ -5,6 +5,7 @@
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
+      console.log('This: ', this);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
@@ -14,17 +15,13 @@
       }
     }
   });
+    $("#message")[0].value = "Dear Lama Group,  \nI'm looking for products with the following specifications:\n";
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 56
-  });
 
   // Collapse Navbar
   var navbarCollapse = function() {
@@ -39,12 +36,8 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Hide navbar when modals trigger
-  $('.portfolio-modal').on('show.bs.modal', function(e) {
-    $(".navbar").addClass("d-none");
-  })
-  $('.portfolio-modal').on('hidden.bs.modal', function(e) {
-    $(".navbar").removeClass("d-none");
-  })
+  var activePage = $("section")[0].id;
+  $("#"+activePage+"-nav").addClass("active");
+  console.log('activePage: ', activePage);
 
 })(jQuery); // End of use strict

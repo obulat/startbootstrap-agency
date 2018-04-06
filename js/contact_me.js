@@ -1,5 +1,4 @@
 $(function() {
-
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
@@ -50,10 +49,13 @@ $(function() {
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
+
         },
         complete: function() {
           setTimeout(function() {
             $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
+              $("#message")[0].value = "Dear Lama Group,  \nI'm looking for products with the following specifications:\n";
+
           }, 1000);
         }
       });

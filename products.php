@@ -3,16 +3,16 @@
     <section id="products">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="page-heading">Products & Services</h2>
+                <div class="col-lg-12 mb-0">
+                    <h2 class="page-heading mb-0">Products & Services</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col">
                     <h3>Wide Product Range</h3>
                     <p>We deal in broad categories of agricultural product range and you can be sure of the best
                         delivery of your chosen product across the chosen markets.</p>
-                    <p>
+                    <p class="mb-0">
                         Lama Group is a well-known company, engaged in manufacturing, importing and exporting a variety
                         of Dried Nuts, Fruits and Seeds for Snack and Confectionery Industry,
                         Oil Seeds and Vegetable Oils, Natural Herbs and Organic Pulses, Grains, Whole and Grounded
@@ -26,7 +26,7 @@
                     <p>Sometimes it’s all in the quality you offer. Beyond our wide product range, we ensure that our
                         products
                         are vouched by right set of certifications.</p>
-                    <p>
+                    <p class="mb-0">
                         We always ensure to deliver our products to our customers as per their requirements. All the
                         products
                         offered by us are sourced from the reliable and certified vendors of the industry who processed
@@ -46,7 +46,7 @@
             </div>
             <div class="row mb-5">
                 <div class="col">
-                    <div class="main-border top-main-border frame1top">
+                    <div class="main-border top-main-border frame1top text-center">
                         <img src="img/products/grains.png" class="img-fluid">
                         <img src="img/private-label/cereals.jpg" class="img-fluid mt-1">
                     </div>
@@ -106,14 +106,14 @@
                 <div class="col">
                     <div class="main-border top-main-border frame1top">
                         <img src="img/products/oil-group.png" class="img-fluid">
-                        <img src="img/products/oilseeds.jpg" class="img-fluid mt-1">
+                        <img src="img/products/oilseeds.jpg" class="img-fluid mt-4">
                     </div>
                     <h4 class="main-heading mb-0">Oil Seeds & Vegetable Oils</h4>
                     <div class="main-border bottom-main-border frame1bottom">
                         <ul class="lh15">
                         <li>Soybean & Soybean Oil</li>
                         <li>Rapeseed & Rapeseed Oil</li>
-                        <li>Sunflower Seed & Sunflower Seed Oil</li>
+                        <li>Sunflower Seed & Sunflower Oil</li>
                         <li>Cottonseed & Cottonseed Oil</li>
                         <li>Safflower Seeds & Safflower Oil</li>
                         <li>Sesame Seeds & Sesame Oil</li>
@@ -149,13 +149,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-3 mb-5">
+            <div class="row mt-3 mb-3">
                 <div class="col">
                     <div class="main-border top-main-border frame2top">
                         <img src="img/about/nuts-seeds.jpg" class="img-fluid">
                         <img src="img/private-label/sunflower-seed.png" class="img-fluid mt-1">
                     </div>
-                    <h4 class="main-heading mb-0">Dried Fruits, Nuts, Seeds <br>(Snack & Confectionery)</h4>
+                    <h4 class="main-heading mb-0">Dried Fruits, Nuts, Seeds</h4>
                     <div class="main-border bottom-main-border frame2bottom">
                         <ul style="line-height: 1.2;">
                         <li>Sunflower Seeds
@@ -196,8 +196,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="main-border top-main-border frame2top">
-                        <img src="img/products/coffee.png" class="img-fluid mt-1">
-                        <img src="img/products/legumes-pulses.jpg" class="img-fluid">
+                        <img src="img/products/coffee.png" class="img-fluid mt-3">
+                        <img src="img/products/legumes-pulses.jpg" class="img-fluid" style="margin-top:50px;">
                     </div>
                     <h4 class="main-heading mb-0">Pulses & Beans & Coffee Beans</h4>
                     <div class="main-border bottom-main-border frame2bottom">
@@ -241,9 +241,9 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="main-border top-main-border frame2top">
-                        <img src="img/products/grains.png" class="img-fluid">
-                        <img src="img/private-label/cereals.jpg" class="img-fluid mt-1">
+                    <div class="main-border top-main-border frame2top text-center">
+                        <img src="img/products/spices-seed.jpg" class="img-fluid mt-3">
+                        <img src="img/products/spices.png" class="img-fluid"  style="margin-top:20px;">
                     </div>
                     <h4 class="main-heading mb-0">Seed Spices & Others</h4>
                     <div class="main-border bottom-main-border frame2bottom">
@@ -282,18 +282,18 @@
                         <tbody>
                         <tr>
                             <td>New Multi-Wall Paper Bag</td>
-                            <td>10kg</td>
+                            <td class="text-right">10 Kg</td>
                             <td rowspan="3" style="vertical-align: middle; text-align: center">or</td>
-                            <td>25kg</td>
+                            <td>25 Kg</td>
                         </tr>
                         <tr>
                             <td>Polypropylene (PP) Bag</td>
-                            <td>25kg</td>
-                            <td>50kg</td>
+                            <td class="text-right">25 Kg</td>
+                            <td>50 Kg</td>
                         </tr>
                         <tr>
                             <td>Jute Bag</td>
-                            <td>50kg</td>
+                            <td class="text-right">50 / 60  Kg</td>
                             <td></td>
                         </tr>
                         </tbody>

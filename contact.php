@@ -12,16 +12,21 @@
                 <div class="col-lg-12">
                     <form id="contactForm" name="sentMessage" novalidate>
                         <div class="row">
-                            <div class="col-md-6 " style="background-color: white; border-radius: .25rem">
-                                <h2 class="text-center">Our Presense</h2>
-                                <img/>
-                                <table class="text-uppercase table table-bordered">
+                            <div class="col-md-6">
+                                <div class="left-frame text-center">
+                                <h2>Our Presence</h2>
+                                <div class="contact-img">
+                                    <img src="img/contact/professional-team.png" width="20%" style="padding-top:35%">
+                                    <img src="img/contact/globe.png" width="55%">
+                                    <img src="img/contact/professional-team.png" width="20%" style="padding-top:35%">
+                                </div>
+                                <table class="text-uppercase table table-bordered mb-0 ">
                                     <tr>
                                         <td>Turkey</td>
                                         <td>Syria & Iraq</td>
                                         <td>India</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="main-color">
                                         <td>Russia</td>
                                         <td>Lebanon & Jordan</td>
                                         <td>China</td>
@@ -31,38 +36,47 @@
                                         <td>Lybia</td>
                                         <td>Kazakhstan</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="main-color">
                                         <td>Romania</td>
                                         <td>Sudan</td>
                                         <td>Uzbekistan</td>
                                     </tr>
                                 </table>
-
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                <h3>Your Enquiry</h3>
-                                <p>Kindly provide the product/ services requirement, and our representative will call you shortly</p>
+                                <div class="right-frame">
+                                <div class="heading">
+                                <h2>Your Enquiry</h2>
+                                <p>Kindly provide the product/ services requirement.<br> Our representative will contact you shortly!</p>
+                                    </div>
+                                <div class="right-frame-bottom">
                                 <div class="form-group">
-                                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" id="message"  placeholder="Dear Sir/Madame, \n I'm looking for products with the following specifications:" required data-validation-required-message="Please enter a message."></textarea>
+                                    </div>
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                                    <div class="form-bottom">
+                                <div class="form-group form-group-row">
+                                    <label for="name">Your Name:</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Your Name And Surname *" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group form-group-row">
+                                    <label>Email: </label>
                                     <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group form-group-row">
+                                    <label>Mobile:</label>
                                     <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div id="success"></div>
+                                        <div class="text-right">
                                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                            </div>
+                                        </div> </div></div></div>
                             <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
 
                             </div>
                         </div>

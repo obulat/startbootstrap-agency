@@ -9,23 +9,23 @@
             <div class="row">
                 <div class="col">
                     <h3>Private Label: From Idea to Market</h3>
-                    <p>Lama Group develops and supplies products under private label.
+                    <p class="mb-0">Lama Group develops and supplies products under private label.
                         We have experience in developing products in various business areas.
                         Our private label team and vast support network help you through all
                         the necessary steps and more. To help and support our
                         clients through the private label journey, we uniquely personalize
                         our services to suit our clients’ needs.</p>
                     <h3>Your one link – one solution</h3>
-                    <p>We provide consulting & support services from product ideas and concept, regulatory strategy,
+                    <p class="mb-3">We provide consulting & support services from product ideas and concept, regulatory strategy,
                         product development, product design, product packaging, product
                         branding through to a ready to launch finished product. We help you take your product from idea
                         to market; your one link - one solution to having your own brand.
                     </p>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col">
-                    <div class="accent-border top-accent-border">
+            <div class="row mb-2">
+                <div class="col-md">
+                    <div class="accent-border top-accent-border text-center">
                         <img src="img/private-label/sunflower-seed.png" class="img-fluid">
                         <img src="img/private-label/dry-fruits.png" class="img-fluid">
                     </div>
@@ -58,11 +58,10 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="accent-border top-accent-border">
-                        <img src="img/private-label/cereals.jpg" class="img-fluid">
-                        <img src="img/private-label/pulses-legumes-cereals.jpg" class="img-fluid"
-                             style="margin-top:40px">
+                <div class="col-md">
+                    <div class="accent-border top-accent-border text-center">
+                        <img src="img/private-label/cereals.jpg" class="img-fluid mt-3">
+                        <img src="img/private-label/pulses-legumes-cereals.jpg" class="img-fluid mt-3">
                     </div>
                     <h4 class="accent-heading mb-0">Pulses & Beans & Grains & Cereals</h4>
                     <div class="accent-border bottom-accent-border">
@@ -102,10 +101,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="accent-border top-accent-border">
+                <div class="col-md">
+                    <div class="accent-border top-accent-border text-center">
+                        <img src="img/private-label/kitchen-usuals.png" class="img-fluid">
+
                         <img src="img/private-label/olive-oil.jpg" class="img-fluid">
-                        <img src="img/private-label/kitchen-usuals.png" class="img-fluid mt-1">
                         <img src="img/private-label/private-label.png" class="img-fluid">
 
                     </div>
@@ -137,7 +137,7 @@
                     <p>Package graphics, in particular, are playing a central role. Retailers are turning to graphics
                         to create a store-wide presence for their private label offerings and also to
                         convey the quality of new premium and artisanal private label lines.
-                        <a href="https://www.foodprocessing.com/articles/2012/private-label-packaging-steps-out/">Read
+                        <a href="https://www.foodprocessing.com/articles/2012/private-label-packaging-steps-out/" class="font-weight-bold">Read
                             more...</a>
                     </p>
                     <p>Private label food brands are a $90 billion business accounting for 17.4 percent of retail food
@@ -150,7 +150,7 @@
                         of their fare is under their store brands. "Drug store" chain
                         Walgreen's renamed and expanded its offerings under the Nice! brand. Dollar and club stores
                         offer new opportunities for growth. <a
-                                href="https://www.foodprocessing.com/articles/2012/private-world-of-private-label/">Read
+                                href="https://www.foodprocessing.com/articles/2012/private-world-of-private-label/" class="font-weight-bold">Read
                             more...</a></p>
                 </div>
             </div>
